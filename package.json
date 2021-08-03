@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "dev" : "parcel src/index.html",
+    "dev": "parcel src/index.html",
     "format": "prettier --write \"src/**/*.{js,jsx}\"",
     "lint": "eslint \"src/**/*.{js,jsx}\" --quiet"
   },
@@ -20,8 +20,13 @@
   },
   "homepage": "https://github.com/fuatguzel/react-basics#readme",
   "devDependencies": {
+    "@babel/core": "^7.12.16",
+    "@babel/preset-react": "^7.12.13",
     "eslint": "^7.18.0",
     "eslint-config-prettier": "^8.1.0",
     "prettier": "^2.3.2"
-  }
+  },
+  "browserslist": [
+    "last 2 Chrome versions"
+  ]
 }
