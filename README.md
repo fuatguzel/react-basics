@@ -8,6 +8,7 @@
 - npm install react@17.0.1 react-dom@17.0.1
 - npm install -D @babel/core@7.12.16 @babel/preset-react@7.12.13
 <!-- for the clean version : https://github.com/btholt/citr-v6-project/tree/master/02-js-tools  -->
+- npm install -D eslint-plugin-import@2.22.1 eslint-plugin-jsx-a11y@6.4.1 eslint-plugin-react@7.22.0 <!-- ESLint Fix -->
 
 ### Installation
 
