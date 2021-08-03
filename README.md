@@ -7,6 +7,7 @@
 - npm install -D parcel@1.12.3 <!-- 11 vulnerabilities (7 moderate, 2 high, 2 critical) -->
 - npm install react@17.0.1 react-dom@17.0.1
 - npm install -D @babel/core@7.12.16 @babel/preset-react@7.12.13
+<!-- for the clean version : https://github.com/btholt/citr-v6-project/tree/master/02-js-tools  -->
 
 ### Installation
 
