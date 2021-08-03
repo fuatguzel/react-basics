@@ -1,23 +1,30 @@
 import { useState } from "react";
 
 const SearchParams = () => {
-  const [location, setLocation] = useState("Körfez, Kocaeli");
+  const [name, setName] = useState("");
+  const [age, setAge] = useState("0");
 
-  function updateLocation(e) {
-    setLocation(e.target.value);
+  function updateName(e) {
+    setName(e.target.value);
+  }
+
+  function updateAge(e) {
+    setAge(e.target.value);
   }
 
   return (
     <div className="search-params">
       <form>
-        <label htmlFor="location">
-          Location
+        <label htmlFor="name">
+          Name
           <input
-            id="location"
-            onChange={updateLocation}
-            value={location}
-            placeholder="Location"
+            id="name"
+            onChange={updateName}
+            value={name}
+            placeholder="Name"
           />
+          Age
+          <input id="age" onChange={updateAge} value={age} placeholder="Age" />
         </label>
         <button>Submit</button>
       </form>
