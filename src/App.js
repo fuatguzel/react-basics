@@ -1,9 +1,6 @@
-const MyComponent = (props) => {
-  return React.createElement("div", {}, [
-    React.createElement("h1", {}, props.name),
-    React.createElement("h2", {}, props.age),
-  ]);
-};
+import React from "react";
+import ReactDOM from "react-dom";
+import MyComponent from "./MyComponent";
 
 const App = () => {
   return React.createElement("div", {}, [
