@@ -13,3 +13,45 @@
 h1{
   color:rebeccapurple;
 }
+
+body {
+  background-color: #c0b1c7;
+  margin: 0;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+
+.search-params label {
+  display: block;
+  width: 60px;
+}
+
+.search-params input,
+.search-params select {
+  margin-bottom: 30px;
+  font-size: 18px;
+  height: 30px;
+  width: 325px;
+}
+
+.search-params button,
+#modal button,
+.details button {
+  background-color: #4611a8;
+  padding: 5px 25px;
+  color: white;
+  font-size: 18px;
+  border: #141414 1px solid;
+  border-radius: 5px;
+  display: block;
+  margin: 0 auto;
+  cursor: pointer;
+}
+
+.search-params button:hover {
+  background-color: #141414;
+}
+
+.search-params button:active {
+  background-color: #6b0ea8;
+}
