@@ -20,6 +20,19 @@ body {
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
 }
 
+.my-styles {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  height: 50px;
+  background-color:#4611a8;
+  margin-bottom: 10px;
+}
+
+.my-styles > h2, h3{
+  color:#fff;
+}
+
 
 .search-params label {
   display: block;
